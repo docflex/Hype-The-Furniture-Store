@@ -17,10 +17,14 @@ const AboutPage = () => {
                         <span>
                             <b>HYPE</b>
                         </span>{" "}
-                        was founded by a group of creative visionaries who have worked in
-                        the Fashion Industry for over 3 Decades. Our beginnings are humble
-                        and modest, but we have eventually grown to become one of the
-                        Household Names when it comes to Bespoke Furniture.
+                        was founded by a group of{" "}
+                        <a href="https://www.linkedin.com/in/r0m/" className="link">
+                            creative visionaries
+                        </a>{" "}
+                        who have worked in the Fashion Industry for over 3 Decades. Our
+                        beginnings are humble and modest, but we have eventually grown to
+                        become one of the Household Names when it comes to Bespoke
+                        Furniture.
                         <br /> <br />
                         We are inspired by the designers who had changed the industry and
                         challenged the expections from in-animate objects such as
@@ -40,6 +44,11 @@ const AboutPage = () => {
     );
 };
 const Wrapper = styled.section`
+    .link {
+        color: var(--clr-primary-5);
+    }
+    .link :: hover {
+    }
     text-align: justify;
     display: grid;
     gap: 4rem;
