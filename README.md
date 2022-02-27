@@ -20,7 +20,7 @@ This repository contains all necessary information about the development of this
 
 ---
 
-<h2 align="center"><b>Technologies and APIs Used</b></h2>
+<h2 align="center"><b>Technologies and APIs</b></h2>
 <br>
 <p align="center">
     <a href="https://github.com/facebook/react/blob/main/CHANGELOG.md#1702-march-22-2021" target="_blank">
@@ -40,7 +40,14 @@ This repository contains all necessary information about the development of this
     </a>
 </p>
 
-## How To Run The Programs:
+---
+
+<h2 align="center"><b>Hosting Status</b></h2>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f16325ab-a646-45ff-b33e-f8da7600015c/deploy-status)](https://app.netlify.com/sites/hype-the-furniture-store/deploys)
+
+
+<!-- ## How To Run The Programs:
 
 > Clone the Repository <br/>
 > Link: https://github.com/ACM-VIT/Reverse-Coding-2022-Solutions
@@ -75,4 +82,4 @@ This repository contains all necessary information about the development of this
 <h2 align="left" > Contributors </h2>
 
 1. [Gagan Malvi](https://github.com/gaganmalvi)
-2. [Harsh Avinash](https://github.com/Harsh-Avinash)
+2. [Harsh Avinash](https://github.com/Harsh-Avinash) -->
