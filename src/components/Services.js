@@ -16,8 +16,9 @@ const Services = () => {
                         <b>HYPE</b>, we firmly believe this.
                         <br />
                         Our Products are Tailor-Made to fit your needs and requirements.
-                        It is such well made, that we certify each and every item in our
-                        Catalogue with a Lifetime-Warranty.
+                        They are made with high precision and low tolerance in mind, so
+                        much so that we certify each and every item in our Catalogue with
+                        a Lifetime-Warranty.
                     </p>
                 </article>
                 <div className="services-center">
