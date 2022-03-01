@@ -2,6 +2,8 @@
 
 ![Front-Page](src/assets/banner.png)
 
+<br/>
+
 <p align="center">
   <a href="https://github.com/docflex" target="_blank">
     <img alt="made-by-rehber" src="https://img.shields.io/badge/MADE%20BY-Rehber-blue?style=for-the-badge" />
@@ -11,6 +13,7 @@
     <img alt="made-by-rehber" src="https://img.shields.io/badge/Hosted%20HERE-NETLIFY-blue?style=for-the-badge&logo=netlify" />
   </a>
 </p>
+<br/>
 
 ---
 
@@ -19,6 +22,9 @@
 This repository contains all necessary information about the development of this project, how you can run it natively from your system, and what all can be improved in the future versions of this project.
 
 ---
+
+<br/>
+<br/>
 
 <h2 align="center"><b>Technologies and APIs</b></h2>
 <br>
@@ -40,46 +46,84 @@ This repository contains all necessary information about the development of this
     </a>
 </p>
 
----
+<br/>
 
-<h2 align="center"><b>Hosting Status</b></h2>
+# Installation
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f16325ab-a646-45ff-b33e-f8da7600015c/deploy-status)](https://app.netlify.com/sites/hype-the-furniture-store/deploys)
+## Getting [Node](https://nodejs.org/)
+
+You can download the package directly via bash
+
+```properties
+curl "https://nodejs.org/dist/latest/node-${VERSION:-$(wget -qO- https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')}.pkg" > "$HOME/Downloads/node-latest.pkg" && sudo installer -store -pkg "$HOME/Downloads/node-latest.pkg" -target "/"
+```
+
+Alternatively, you can use Homebrew
+
+```properties
+brew install node
+```
+
+## Getting [Auth0 React SDK](https://auth0.com/docs/quickstart/spa/react/01-login)
+
+You can download the package using `npm` commands
+
+```properties
+npm install @auth0/auth0-react
+```
+
+## Getting [Netlify CLI](https://docs.netlify.com/cli/get-started//)
+
+You can download the package using `npm` commands
+
+```properties
+npm install netlify-cli -D
+```
+
+## Getting Extra Dependencies
+
+You can download the packages using `npm` commands
+
+```properties
+npm install dotenv@8.2.0 stripe@8.130.0 @stripe/react-stripe-js@1.1.2 @stripe/stripe-js@1.11.0 netlify@6.0.12
+```
+<br/>
+<br/>
+
+# Running the Project Locally or Via Netlify
+
+## Clone this [Repository](https://github.com/docflex/hype-the-furniture-store.git)
+
+```properties
+git clone https://github.com/docflex/hype-the-furniture-store.git
+```
 
 
-<!-- ## How To Run The Programs:
+## Install Node Modules
 
-> Clone the Repository <br/>
-> Link: https://github.com/ACM-VIT/Reverse-Coding-2022-Solutions
->
-> -   Step 1: Navigate to the required Round Folder. Then Run the Following Command. This Compiles the Code
->
-> ```shell
->    $ g++ <Code-File-Name>.cpp -o runCode
-> ```
->
-> -   Step 2: Next Use this Code to Run The Program.
->
-> ```shell
->    $ ./runCode
-> ```
->
-> -   Step 3: Put in your Input to Test the IO.
->
-> ```shell
->    $ <Put Your Input>
-> ```
->
-> _Run_ the program according to **Constraints**.
+```properties
+npm install
+```
 
-<h2 align="left" > Authors </h2>
+## Set up the .env Variables
 
-1. [Rehber Moin](https://github.com/docflex)
-2. [Aryaman Kolhe](https://github.com/Chasmiccoder)
-3. Jay Kaoshik
-4. [Rishu Yadav](https://github.com/rishuyadav)
+```
+REACT_APP_AUTH_DOMAIN = [Your Auth0 Domain]
+REACT_APP_CLIENT_ID = [Your Auth0 ClientID]
+REACT_APP_STRIPE_PUBLIC_KEY = [Your Stripe Public Key]
+REACT_APP_STRIPE_SECRET_KEY = [Your Stripe Secret Key]
+```
 
-<h2 align="left" > Contributors </h2>
+## Running a Local Development Server
 
-1. [Gagan Malvi](https://github.com/gaganmalvi)
-2. [Harsh Avinash](https://github.com/Harsh-Avinash) -->
+You can either use React's LocalHost Functionality or use Netlify
+
+```properties
+npm start
+```
+
+Alternatively
+
+```properties
+ntl dev
+```
