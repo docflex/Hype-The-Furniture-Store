@@ -8,12 +8,13 @@
   <a href="https://github.com/docflex" target="_blank">
     <img alt="made-by-rehber" src="https://img.shields.io/badge/MADE%20BY-Rehber-blue?style=for-the-badge" />
   </a>
+  <a href="https://choosealicense.com/licenses/mit/" target="_blank">
     <img alt="license" src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" />
+</a>
   <a href="https://hype-the-furniture-store.netlify.app/" target="_blank">
     <img alt="made-by-rehber" src="https://img.shields.io/badge/Hosted%20HERE-NETLIFY-blue?style=for-the-badge&logo=netlify" />
   </a>
 </p>
-<br/>
 
 ---
 
@@ -24,8 +25,6 @@ This repository contains all necessary information about the development of this
 ---
 
 <br/>
-<br/>
-
 <h2 align="center"><b>Technologies and APIs</b></h2>
 <br>
 <p align="center">
@@ -87,6 +86,7 @@ You can download the packages using `npm` commands
 ```properties
 npm install dotenv@8.2.0 stripe@8.130.0 @stripe/react-stripe-js@1.1.2 @stripe/stripe-js@1.11.0 netlify@6.0.12
 ```
+
 <br/>
 <br/>
 
@@ -97,7 +97,6 @@ npm install dotenv@8.2.0 stripe@8.130.0 @stripe/react-stripe-js@1.1.2 @stripe/st
 ```properties
 git clone https://github.com/docflex/hype-the-furniture-store.git
 ```
-
 
 ## Install Node Modules
 
