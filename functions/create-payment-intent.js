@@ -21,6 +21,7 @@ exports.handler = async function (event, context) {
             body: JSON.stringify({clientSecret: paymentIntent.client_secret}),
         };
     } catch (error) {
+        // Payment Error
         return {
             statusCode: 500,
             body: JSON.stringify({error: error.message}),
