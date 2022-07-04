@@ -64,6 +64,7 @@ const AddToCart = ({ product }) => {
         </Wrapper>
     );
 };
+
 const Wrapper = styled.section`
     margin-top: 2rem;
     .colors {
